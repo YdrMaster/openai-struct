@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunStepDeltaStepDetailsToolCallsFunctionObjectFunction : The definition of the function that was called.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunStepDeltaStepDetailsToolCallsFunctionObjectFunction {
     /// The arguments passed to the function.

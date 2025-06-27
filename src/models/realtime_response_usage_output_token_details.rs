@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeResponseUsageOutputTokenDetails : Details about the output tokens used in the Response.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeResponseUsageOutputTokenDetails {
     /// The number of audio tokens used in the Response.

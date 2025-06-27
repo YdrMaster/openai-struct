@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseFileSearchCallSearchingEvent : Emitted when a file search is currently searching.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseFileSearchCallSearchingEvent {
     /// The ID of the output item that the file search call is initiated.

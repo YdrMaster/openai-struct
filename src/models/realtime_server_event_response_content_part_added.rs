@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeServerEventResponseContentPartAdded : Returned when a new content part is added to an assistant message item during response generation.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeServerEventResponseContentPartAdded {
     /// The index of the content part in the item's content array.

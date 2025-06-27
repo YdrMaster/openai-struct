@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub AuditLogRateLimitUpdatedChangesRequested : The payload used to update the rate limits.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AuditLogRateLimitUpdatedChangesRequested {
     /// The maximum batch input tokens per day. Only relevant for certain models.

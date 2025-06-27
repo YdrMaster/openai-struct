@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ProjectApiKey : Represents an individual API key in a project.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ProjectApiKey {
     /// The Unix timestamp (in seconds) of when the API key was created

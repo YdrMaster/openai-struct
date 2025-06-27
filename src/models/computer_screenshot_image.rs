@@ -8,11 +8,6 @@
  * Generated pub by: https:///github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ComputerScreenshotImage : A computer screenshot image used with the computer use tool.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openapi.yaml
 ///
 /// ```yaml

@@ -8,11 +8,6 @@
  * Generated pub by: https:///github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub BatchRequestOutput : The per-line object of the batch output and error files
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openapi.yaml
 ///
 /// ```yaml

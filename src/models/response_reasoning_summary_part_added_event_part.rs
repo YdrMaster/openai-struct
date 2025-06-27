@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseReasoningSummaryPartAddedEventPart : The summary part that was added.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseReasoningSummaryPartAddedEventPart {
     /// The text of the summary part.

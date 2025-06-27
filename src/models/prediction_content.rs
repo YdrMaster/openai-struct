@@ -8,11 +8,6 @@
  * Generated pub by: https:///github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub PredictionContent : Static predicted output content, such as the content of a text file that is being regenerated.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openapi.yaml
 ///
 /// ```yaml

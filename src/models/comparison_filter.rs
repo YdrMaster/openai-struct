@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ComparisonFilter : A filter used to compare a specified attribute key to a given value using a defined comparison operation.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ComparisonFilter {
     /// The key to compare against the value.

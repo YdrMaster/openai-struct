@@ -8,11 +8,6 @@
  * Generated pub by: https:///github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CostsResult : The aggregated costs details of the specific time bucket.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openapi.yaml
 ///
 /// ```yaml

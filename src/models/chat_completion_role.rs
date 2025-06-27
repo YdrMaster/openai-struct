@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ChatCompletionRole : The role of the author of a message
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openapi.yaml
 ///
 /// ```yaml

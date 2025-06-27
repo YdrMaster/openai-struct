@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub FineTuningJobCheckpointMetrics : Metrics at the step number during the fine-tuning job.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct FineTuningJobCheckpointMetrics {
     #[serde(rename = "full_valid_loss")]

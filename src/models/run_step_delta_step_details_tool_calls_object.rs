@@ -9,8 +9,6 @@
  */
 
 /// pub RunStepDeltaStepDetailsToolCallsObject : Details of the tool call.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

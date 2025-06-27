@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub TruncationObject : Controls for how a thread will be truncated prior to the run. Use this to control the intial context window of the run.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct TruncationObject {
     /// The number of most recent messages from the thread when constructing the context for the run.

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeServerEventResponseContentPartAddedPart : The content part that was added.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeServerEventResponseContentPartAddedPart {
     /// Base64-encoded audio data (if type is \"audio\").

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeServerEventConversationItemInputAudioTranscriptionFailed : Returned when input audio transcription is configured, and a transcription  request for a user message failed. These events are separate from other  `error` events so that the client can identify the related Item.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeServerEventConversationItemInputAudioTranscriptionFailed {
     /// The index of the content part containing the audio.

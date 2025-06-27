@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub Content : Multi-modal input and output contents.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 use crate::{InputContent, OutputContent};
 
 /// # on openapi.yaml

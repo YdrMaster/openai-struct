@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseReasoningSummaryPartAddedEvent : Emitted when a new reasoning summary part is added.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseReasoningSummaryPartAddedEvent {
     /// The ID of the item this summary part is associated with.

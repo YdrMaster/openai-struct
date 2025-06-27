@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseOutputItemDoneEvent : Emitted when an output item is marked done.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseOutputItemDoneEvent {
     /// The output item that was marked done.

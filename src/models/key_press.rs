@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub KeyPress : A collection of keypresses the model would like to perform.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct KeyPress {
     /// The combination of keys the model is requesting to be pressed. This is an array of strings, each representing a key.

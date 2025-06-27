@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ChatCompletionResponseMessageAnnotations : A URL citation when using web search.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ChatCompletionResponseMessageAnnotations {
     /// The type of the URL citation. Always `url_citation`.

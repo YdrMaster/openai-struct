@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CostsResultAmount : The monetary value in its associated currency.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CostsResultAmount {
     /// Lowercase ISO-4217 currency e.g. \"usd\"

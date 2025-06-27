@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseCodeInterpreterCallCodeDoneEvent : Emitted when code snippet output is finalized by the code interpreter.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseCodeInterpreterCallCodeDoneEvent {
     /// The final code snippet output by the code interpreter.

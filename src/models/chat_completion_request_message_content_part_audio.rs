@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ChatCompletionRequestMessageContentPartAudio : Learn about [audio inputs](/docs/guides/audio).
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize, PartialEq)]
 pub struct ChatCompletionRequestMessageContentPartAudio {
     #[serde(rename = "input_audio")]

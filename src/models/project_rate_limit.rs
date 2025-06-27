@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ProjectRateLimit : Represents a project rate limit config.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ProjectRateLimit {
     /// The maximum batch input tokens per day. Only present for relevant models.

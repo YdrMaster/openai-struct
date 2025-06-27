@@ -8,9 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-#[allow(unused_imports)]
-use serde_json::Value;
-
 // #[derive(Debug, Serialize, Deserialize)]
 // pub struct TranscriptTextDeltaEventLogprobs {
 //   /// The bytes that were used to generate the log probability.

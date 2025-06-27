@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub UrlCitationBody : A citation for a web resource used to generate a model response.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct UrlCitationBody {
     /// The index of the last character of the URL citation in the message.

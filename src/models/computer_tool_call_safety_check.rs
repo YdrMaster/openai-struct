@@ -8,11 +8,6 @@
  * Generated pub by: https:///github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ComputerToolCallSafetyCheck : A pending safety check for the computer call.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openapi.yaml
 ///
 /// ```yaml

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub FineTunePreferenceRequestInput : The per-line training example of a fine-tuning input file for chat models using the dpo method.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct FineTunePreferenceRequestInput {
     #[serde(rename = "input")]

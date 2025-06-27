@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub VectorStoreObject : A vector store is a collection of processed files can be used by the `file_search` tool.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct VectorStoreObject {
     /// The Unix timestamp (in seconds) for when the vector store was created.

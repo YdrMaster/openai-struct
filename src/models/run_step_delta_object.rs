@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunStepDeltaObject : Represents a run step delta i.e. any changed fields on a run step during streaming.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunStepDeltaObject {
     #[serde(rename = "delta")]

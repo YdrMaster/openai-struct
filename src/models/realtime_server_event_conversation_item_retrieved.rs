@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeServerEventConversationItemRetrieved : Returned when a conversation item is retrieved with `conversation.item.retrieve`.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeServerEventConversationItemRetrieved {
     /// The unique ID of the server event.

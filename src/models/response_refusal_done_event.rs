@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseRefusalDoneEvent : Emitted when refusal text is finalized.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseRefusalDoneEvent {
     /// The index of the content part that the refusal text is finalized.

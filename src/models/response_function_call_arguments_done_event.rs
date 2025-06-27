@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseFunctionCallArgumentsDoneEvent : Emitted when function-call arguments are finalized.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseFunctionCallArgumentsDoneEvent {
     /// The function-call arguments.

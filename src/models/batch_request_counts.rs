@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub BatchRequestCounts : The request counts for different statuses within the batch.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct BatchRequestCounts {
     /// Number of requests that have been completed successfully.

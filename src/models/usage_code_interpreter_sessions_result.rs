@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub UsageCodeInterpreterSessionsResult : The aggregated code interpreter sessions usage details of the specific time bucket.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct UsageCodeInterpreterSessionsResult {
     /// The number of code interpreter sessions.

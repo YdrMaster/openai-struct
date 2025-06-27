@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub EvalRunResultCounts : Counters summarizing the outcomes of the evaluation run.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct EvalRunResultCounts {
     /// Number of output items that resulted in an error.

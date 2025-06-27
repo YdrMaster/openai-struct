@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub MessageDeltaContentTextAnnotationsFilePathObject : A URL for the file that's generated when the assistant used the `code_interpreter` tool to generate a file.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct MessageDeltaContentTextAnnotationsFilePathObject {
     #[serde(rename = "end_index")]

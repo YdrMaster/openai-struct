@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub TranscriptTextDoneEvent : Emitted when the transcription is complete. Contains the complete transcription text. Only emitted when you [create a transcription](/docs/api-reference/audio/create-transcription) with the `Stream` parameter set to `true`.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 // #[derive(Debug, Serialize, Deserialize)]
 // pub struct TranscriptTextDoneEvent {
 //   /// The log probabilities of the individual tokens in the transcription. Only included if you [create a transcription](/docs/api-reference/audio/create-transcription) with the `include[]` parameter set to `logprobs`.

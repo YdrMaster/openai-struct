@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseFileSearchCallCompletedEvent : Emitted when a file search call is completed (results found).
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseFileSearchCallCompletedEvent {
     /// The ID of the output item that the file search call is initiated.

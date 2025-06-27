@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub AuditLogOrganizationUpdatedChangesRequested : The payload used to update the organization settings.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AuditLogOrganizationUpdatedChangesRequested {
     /// The organization description.

@@ -9,8 +9,6 @@
  */
 
 /// pub EvalResponsesSource : A EvalResponsesSource object describing a run data source configuration.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

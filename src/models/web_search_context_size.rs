@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub WebSearchContextSize : High level guidance for the amount of context window space to use for the  search. One of `low`, `medium`, or `high`. `medium` is the default.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openai.yaml
 ///
 /// ```yaml

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseReasoningSummaryTextDeltaEvent : Emitted when a delta is added to a reasoning summary text.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseReasoningSummaryTextDeltaEvent {
     /// The text delta that was added to the summary.

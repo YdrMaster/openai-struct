@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeServerEventSessionCreated : Returned when a Session is created. Emitted automatically when a new  connection is established as the first server event. This event will contain  the default Session configuration.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeServerEventSessionCreated {
     /// The unique ID of the server event.

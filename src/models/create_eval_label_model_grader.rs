@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CreateEvalLabelModelGrader : A LabelModelGrader object which uses a model to assign labels to each item in the evaluation.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CreateEvalLabelModelGrader {
     /// A list of chat messages forming the prompt or context. May include variable references to the \"item\" namespace, ie {{item.name}}.

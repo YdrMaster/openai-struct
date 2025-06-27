@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunStepDetailsToolCallsCodeObject : Details of the Code Interpreter tool call the run step was involved in.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunStepDetailsToolCallsCodeObject {
     #[serde(rename = "code_interpreter")]

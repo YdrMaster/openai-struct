@@ -8,9 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeConversationItemContent {
     /// Base64-encoded audio bytes, used for `input_audio` content type.

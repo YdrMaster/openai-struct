@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CreateTranscriptionResponseVerboseJson : Represents a verbose json transcription response returned by model, based on the provided input.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CreateTranscriptionResponseVerboseJson {
     /// The duration of the input audio.

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub VectorStoreExpirationAfter : The expiration policy for a vector store.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct VectorStoreExpirationAfter {
     /// Anchor timestamp after which the expiration policy applies. Supported anchors: `last_active_at`.

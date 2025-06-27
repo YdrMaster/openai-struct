@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub FineTuningJobCheckpoint : The `fine_tuning.job.checkpoint` object represents a model checkpoint for a fine-tuning job that is ready to use.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct FineTuningJobCheckpoint {
     /// The Unix timestamp (in seconds) for when the checkpoint was created.

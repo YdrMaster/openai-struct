@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunObjectIncompleteDetails : Details on why the run is incomplete. Will be `null` if the run is not incomplete.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunObjectIncompleteDetails {
     /// The reason why the run is incomplete. This will point to which specific token limit was reached over the course of the run.

@@ -13,8 +13,6 @@ use crate::{
     ChatCompletionRequestFunctionMessage, ChatCompletionRequestSystemMessage,
     ChatCompletionRequestToolMessage, ChatCompletionRequestUserMessage,
 };
-#[allow(unused_imports)]
-use serde_json::Value;
 
 #[derive(Debug, PartialEq, Serialize, Deserialize)]
 #[serde(tag = "role")]

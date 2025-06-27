@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseAudioTranscriptDeltaEvent : Emitted when there is a partial transcript of audio.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseAudioTranscriptDeltaEvent {
     /// The partial transcript of the audio response.

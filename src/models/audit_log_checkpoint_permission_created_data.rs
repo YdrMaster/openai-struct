@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub AuditLogCheckpointPermissionCreatedData : The payload used to create the checkpoint permission.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AuditLogCheckpointPermissionCreatedData {
     /// The ID of the fine-tuned model checkpoint.

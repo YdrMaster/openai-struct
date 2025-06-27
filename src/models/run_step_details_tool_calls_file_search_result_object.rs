@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunStepDetailsToolCallsFileSearchResultObject : A result instance of the file search.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunStepDetailsToolCallsFileSearchResultObject {
     /// The content of the result that was found. The content is only included if requested via the include query parameter.

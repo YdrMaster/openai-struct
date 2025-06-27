@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeResponseStatusDetailsError : A description of the error that caused the response to fail,  populated when the `status` is `failed`.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeResponseStatusDetailsError {
     /// Error code, if any.

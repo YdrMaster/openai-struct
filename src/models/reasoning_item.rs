@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ReasoningItem : A description of the chain of thought used by a reasoning model while generating a response.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ReasoningItem {
     /// The unique identifier of the reasoning content.

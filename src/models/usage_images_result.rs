@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub UsageImagesResult : The aggregated images usage details of the specific time bucket.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct UsageImagesResult {
     /// When `group_by=api_key_id`, this field provides the API key ID of the grouped usage result.

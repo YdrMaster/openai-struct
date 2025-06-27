@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CompletionUsageCompletionTokensDetails : Breakdown of tokens used in a completion.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CompletionUsageCompletionTokensDetails {
     /// When using Predicted Outputs, the number of tokens in the prediction that appeared in the completion.

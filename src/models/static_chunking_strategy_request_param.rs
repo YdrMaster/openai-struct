@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub StaticChunkingStrategyRequestParam : Customize your own chunking strategy by setting chunk size and chunk overlap.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct StaticChunkingStrategyRequestParam {
     #[serde(rename = "static")]

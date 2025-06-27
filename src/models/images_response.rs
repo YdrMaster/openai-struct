@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ImagesResponse : The response from the image generation endpoint.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ImagesResponse {
     /// The Unix timestamp (in seconds) of when the image was created.

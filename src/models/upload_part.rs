@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub UploadPart : The upload Part represents a chunk of bytes we can add to an Upload object.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct UploadPart {
     /// The Unix timestamp (in seconds) for when the Part was created.

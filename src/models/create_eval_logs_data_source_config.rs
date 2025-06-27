@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CreateEvalLogsDataSourceConfig : A data source config which specifies the metadata property of your stored completions query. This is usually metadata like `usecase=chatbot` or `prompt-version=v2`, etc.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 // #[derive(Debug, Serialize, Deserialize)]
 // pub struct CreateEvalLogsDataSourceConfig {
 //   /// Metadata filters for the logs data source.

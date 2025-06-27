@@ -9,8 +9,6 @@
  */
 
 /// pub MessageObject : Represents a message within a [thread](/docs/api-reference/threads).
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunStepObjectLastError : The last error associated with this run step. Will be `null` if there are no errors.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunStepObjectLastError {
     /// One of `server_error` or `rate_limit_exceeded`.

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CreateThreadRequest : Options to create a new thread. If no thread is provided when running a  request, an empty thread will be created.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CreateThreadRequest {
     /// A list of [messages](/docs/api-reference/messages) to start the thread with.

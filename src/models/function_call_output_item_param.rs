@@ -9,8 +9,6 @@
  */
 
 /// pub FunctionCallOutputItemParam : The output of a function tool call.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

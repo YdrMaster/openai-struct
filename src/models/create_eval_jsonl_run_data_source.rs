@@ -9,8 +9,6 @@
  */
 
 /// pub CreateEvalJsonlRunDataSource : A JsonlRunDataSource object with that specifies a JSONL file that matches the eval
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 /// # on openapi.yaml

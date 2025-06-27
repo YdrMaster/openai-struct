@@ -9,8 +9,6 @@
  */
 
 /// pub RunStepDetailsToolCallsCodeObjectCodeInterpreter : The Code Interpreter tool call definition.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

@@ -8,7 +8,6 @@
  * Generated pub by: https:///github.com/swagger-api/swagger-codegen.git
  */
 
-#[allow(unused_imports)]
 use serde_json::Value;
 
 /// # on openapi.yaml

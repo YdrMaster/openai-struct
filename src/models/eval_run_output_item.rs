@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub EvalRunOutputItem : A schema representing an evaluation run output item.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 // #[derive(Debug, Serialize, Deserialize)]
 // pub struct EvalRunOutputItem {
 //   /// Unix timestamp (in seconds) when the evaluation run was created.

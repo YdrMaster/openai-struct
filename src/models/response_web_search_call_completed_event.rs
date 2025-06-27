@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseWebSearchCallCompletedEvent : Emitted when a web search call is completed.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseWebSearchCallCompletedEvent {
     /// Unique ID for the output item associated with the web search call.

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub BatchRequestOutputError : For requests that failed with a non-HTTP error, this will contain more information on the cause of the failure.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct BatchRequestOutputError {
     /// A machine-readable error code.

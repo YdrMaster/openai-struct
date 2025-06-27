@@ -9,8 +9,6 @@
  */
 
 /// pub FineTuningJob : The `fine_tuning.job` object represents a fine-tuning job that has been created through the API.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

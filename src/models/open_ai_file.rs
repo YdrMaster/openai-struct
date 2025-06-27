@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub OpenAiFile : The `File` object represents a document that has been uploaded to OpenAI.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct OpenAiFile {
     /// The size of the file, in bytes.

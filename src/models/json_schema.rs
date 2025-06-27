@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub JsonSchema : Structured Outputs configuration options, including a JSON Schema.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct JsonSchema {
     /// A description of what the response format is for, used by the model to determine how to respond in the format.

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ChatCompletionRequestAssistantMessage : Messages sent by the model in response to user messages.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize, PartialEq)]
 pub struct ChatCompletionRequestAssistantMessage {
     #[serde(rename = "audio")]

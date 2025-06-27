@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunStepDeltaStepDetailsToolCallsCodeOutputLogsObject : Text output from the Code Interpreter tool call as part of a run step.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunStepDeltaStepDetailsToolCallsCodeOutputLogsObject {
     /// The index of the output in the outputs array.

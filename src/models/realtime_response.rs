@@ -9,8 +9,6 @@
  */
 
 /// pub RealtimeResponse : The response resource.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

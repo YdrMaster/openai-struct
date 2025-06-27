@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeServerEventConversationItemInputAudioTranscriptionDelta : Returned when the text value of an input audio transcription content part is updated.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeServerEventConversationItemInputAudioTranscriptionDelta {
     /// The index of the content part in the item's content array.

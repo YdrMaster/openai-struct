@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeTranscriptionSessionCreateResponseClientSecret : Ephemeral key returned by the API. Only present when the session is created on the server via REST API.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeTranscriptionSessionCreateResponseClientSecret {
     /// Timestamp for when the token expires. Currently, all tokens expire after one minute.

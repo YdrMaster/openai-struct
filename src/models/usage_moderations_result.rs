@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub UsageModerationsResult : The aggregated moderations usage details of the specific time bucket.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct UsageModerationsResult {
     /// When `group_by=api_key_id`, this field provides the API key ID of the grouped usage result.

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseFormatJsonSchemaSchema : The schema for the response format, described as a JSON Schema object. Learn how to build JSON schemas [here](pub https://json-schema.org/).
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openapi.yaml
 ///
 /// ```yaml

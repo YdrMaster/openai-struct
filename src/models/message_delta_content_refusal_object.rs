@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub MessageDeltaContentRefusalObject : The refusal content that is part of a message.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct MessageDeltaContentRefusalObject {
     /// The index of the refusal part in the message.

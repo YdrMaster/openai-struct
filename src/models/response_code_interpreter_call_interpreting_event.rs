@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseCodeInterpreterCallInterpretingEvent : Emitted when the code interpreter is actively interpreting the code snippet.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseCodeInterpreterCallInterpretingEvent {
     #[serde(rename = "code_interpreter_call")]

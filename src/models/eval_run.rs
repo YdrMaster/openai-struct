@@ -9,8 +9,6 @@
  */
 
 /// pub EvalRun : A schema representing an evaluation run.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

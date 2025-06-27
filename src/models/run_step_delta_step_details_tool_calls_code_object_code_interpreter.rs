@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunStepDeltaStepDetailsToolCallsCodeObjectCodeInterpreter : The Code Interpreter tool call definition.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunStepDeltaStepDetailsToolCallsCodeObjectCodeInterpreter {
     /// The input to the Code Interpreter tool call.

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub Screenshot : A screenshot action.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Screenshot {
     /// Specifies the event type. For a screenshot action, this property is  always set to `screenshot`.

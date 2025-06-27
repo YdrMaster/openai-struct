@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub Reasoning : **o-series models only**  Configuration options for  [reasoning models](https://platform.openai.com/docs/guides/reasoning).
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Reasoning {
     #[serde(rename = "effort")]

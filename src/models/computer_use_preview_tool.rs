@@ -8,11 +8,6 @@
  * Generated pub by: https:///github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ComputerUsePreviewTool : A tool that controls a virtual computer. Learn more about the [computer tool](https:///platform.openai.com/docs/guides/tools-computer-use).
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openapi.yaml
 ///
 /// ```yaml

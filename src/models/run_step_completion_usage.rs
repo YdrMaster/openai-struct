@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RunStepCompletionUsage : Usage statistics related to the run step. This value will be `null` while the run step's status is `in_progress`.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RunStepCompletionUsage {
     /// Number of completion tokens used over the course of the run step.

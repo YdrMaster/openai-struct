@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub EvalLabelModelGrader : A LabelModelGrader object which uses a model to assign labels to each item in the evaluation.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct EvalLabelModelGrader {
     #[serde(rename = "input")]

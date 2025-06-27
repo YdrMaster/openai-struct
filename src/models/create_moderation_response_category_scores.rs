@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CreateModerationResponseCategoryScores : A list of the categories along with their scores as predicted by model.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CreateModerationResponseCategoryScores {
     /// The score for the category 'harassment'.

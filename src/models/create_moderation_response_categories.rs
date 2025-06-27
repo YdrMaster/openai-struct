@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CreateModerationResponseCategories : A list of the categories, and whether they are flagged or not.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CreateModerationResponseCategories {
     /// Content that expresses, incites, or promotes harassing language towards any target.

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub WebSearchLocation : Approximate location parameters for the search.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct WebSearchLocation {
     /// Free text input for the city of the user, e.g. `San Francisco`.

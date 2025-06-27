@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ImagesResponseUsage : For `gpt-image-1` only, the token usage information for the image generation.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ImagesResponseUsage {
     /// The number of tokens (images and text) in the input prompt.

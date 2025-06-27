@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub TranscriptTextDeltaEvent : Emitted when there is an additional text delta. This is also the first event emitted when the transcription starts. Only emitted when you [create a transcription](/docs/api-reference/audio/create-transcription) with the `Stream` parameter set to `true`.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 // #[derive(Debug, Serialize, Deserialize)]
 // pub struct TranscriptTextDeltaEvent {
 //   /// The text delta that was additionally transcribed.

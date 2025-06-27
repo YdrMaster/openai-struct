@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CreateCompletionResponse : Represents a completion response from the API. Note: both the streamed and non-streamed response objects share the same shape (unlike the chat endpoint).
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// todo: 长，改天看
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CreateCompletionResponse {

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ResponseAudioTranscriptDoneEvent : Emitted when the full audio transcript is completed.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ResponseAudioTranscriptDoneEvent {
     /// The type of the event. Always `response.audio.transcript.done`.

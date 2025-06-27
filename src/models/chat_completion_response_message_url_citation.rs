@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ChatCompletionResponseMessageUrlCitation : A URL citation when using web search.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ChatCompletionResponseMessageUrlCitation {
     /// The index of the last character of the URL citation in the message.

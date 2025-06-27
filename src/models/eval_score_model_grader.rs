@@ -9,8 +9,6 @@
  */
 
 /// pub EvalScoreModelGrader : A ScoreModelGrader object that uses a model to assign a score to the input.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

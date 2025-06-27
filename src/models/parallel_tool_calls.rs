@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ParallelToolCalls : Whether to enable [parallel function calling](/docs/guides/function-calling#configuring-parallel-function-calling) during tool use.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 /// # on openai.yaml
 ///
 /// ```yaml

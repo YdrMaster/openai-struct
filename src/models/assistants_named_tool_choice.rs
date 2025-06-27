@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub AssistantsNamedToolChoice : Specifies a tool the model should use. Use to force the model to call a specific tool.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AssistantsNamedToolChoice {
     #[serde(rename = "function")]

@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub AuditLogApiKeyCreatedData : The payload used to create the API key.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct AuditLogApiKeyCreatedData {
     /// A list of scopes allowed for the API key, e.g. `[\"api.model.request\"]`

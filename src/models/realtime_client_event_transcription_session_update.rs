@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub RealtimeClientEventTranscriptionSessionUpdate : Send this event to update a transcription session.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct RealtimeClientEventTranscriptionSessionUpdate {
     /// Optional client-generated ID used to identify this event.

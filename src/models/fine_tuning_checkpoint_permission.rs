@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub FineTuningCheckpointPermission : The `checkpoint.permission` object represents a permission for a fine-tuned model checkpoint.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct FineTuningCheckpointPermission {
     /// The Unix timestamp (in seconds) for when the permission was created.

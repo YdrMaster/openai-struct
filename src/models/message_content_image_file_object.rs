@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub MessageContentImageFileObject : References an image [File](/docs/api-reference/files) in the content of a message.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct MessageContentImageFileObject {
     #[serde(rename = "image_file")]

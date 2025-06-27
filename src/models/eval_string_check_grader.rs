@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub EvalStringCheckGrader : A StringCheckGrader object that performs a string comparison between input and reference using a specified operation.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct EvalStringCheckGrader {
     /// The input text. This may include template strings.

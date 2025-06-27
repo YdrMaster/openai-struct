@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub CreateModerationResponseCategoryAppliedInputTypes : A list of the categories along with the input type(s) that the score applies to.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct CreateModerationResponseCategoryAppliedInputTypes {
     /// The applied input type(s) for the category 'harassment'.

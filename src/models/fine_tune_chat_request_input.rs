@@ -9,8 +9,6 @@
  */
 
 /// pub FineTuneChatRequestInput : The per-line training example of a fine-tuning input file for chat models using the supervised method.
-
-#[allow(unused_imports)]
 use serde_json::Value;
 
 #[derive(Debug, Serialize, Deserialize)]

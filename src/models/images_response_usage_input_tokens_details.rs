@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ImagesResponseUsageInputTokensDetails : The input tokens detailed information for the image generation.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct ImagesResponseUsageInputTokensDetails {
     /// The number of image tokens in the input prompt.

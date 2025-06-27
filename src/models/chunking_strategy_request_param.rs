@@ -8,11 +8,6 @@
  * Generated pub by: https://github.com/swagger-api/swagger-codegen.git
  */
 
-/// pub ChunkingStrategyRequestParam : The chunking strategy used to chunk the file(s). If not set, will use the `auto` strategy.
-
-#[allow(unused_imports)]
-use serde_json::Value;
-
 use crate::{AutoChunkingStrategyRequestParam, StaticChunkingStrategyRequestParam};
 
 /// # on openapi.yaml
